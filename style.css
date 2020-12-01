@@ -83,9 +83,11 @@ span{
     margin-top:30px;
     height: 150px;
     vertical-align: top;
-    padding:15px;
+    padding: 5px;
 }
-
+.moviecard p{
+ text-align: right;   
+}
 
   img{
       max-width: 300%;
