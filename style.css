@@ -67,3 +67,26 @@ span{
     width: 20px;
     height: 20px;
 }
+.grid-container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 3fr);
+    grid-auto-rows: 5px;
+
+}
+.moviecard{
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    width:20%;
+    margin-left: 8%;
+    margin-top:30px;
+    height: 150px;
+    vertical-align: top;
+    padding:15px;
+}
+
+
+  img{
+      max-width: 300%;
+  }
